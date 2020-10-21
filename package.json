@@ -1,0 +1,39 @@
+{
+  "name": "adsmanagerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -i jsondb"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "engines": {
+    "node": "6.9.2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "csv-stringify": "^3.0.0",
+    "discord.js": "^12.3.1",
+    "express": "^4.16.2",
+    "firebase": "^4.12.1",
+    "firebase-admin": "^5.11.0",
+    "google-translate": "^2.1.0",
+    "google-translate-api": "^2.3.0",
+    "jsonfile": "^4.0.0",
+    "moment": "^2.21.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "strict-password-generator": "^1.1.2"
+  },
+  "devDependencies": {
+    "get-twitter-followers": "^2.0.0",
+    "mongojs": "^2.6.0",
+    "node-captcha-generator": "0.0.1",
+    "node-schedule": "^1.3.0",
+    "shelljs": "^0.8.2",
+    "twitter": "^1.7.1"
+  }
+}

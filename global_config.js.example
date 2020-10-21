@@ -1,0 +1,40 @@
+//Your AVAX Node crednetials and IP
+global.AVA_NODE = "NODEIP:PORT"
+global.AVA_NODE_NAME = "NODE_USER";
+global.AVA_NODE_PWD = "NODE_PWD"
+
+// Database crednetials
+global.MONGODB_AUTH = "USER:PWD@IP:PORT/DB?authSource=admin"
+
+// SUPER ADMIN OF TELEGRAM BOT -> has access to KPI + BULK MESSAGES
+global.myAdmins = [""]
+
+// Discord app token
+global.BOT_TOKEN_DISCORD = "DISCORD_TOKEN"
+
+// Telegram bot credentials
+global.BOT_TOKEN_TELEGRAM_TEST = 'TELEGRAM_TEST_TOKEN';
+global.BOT_TOKEN_TELEGRAM_PROD = 'TELEGRAM_PROD_TOKEN';
+
+// Twitter of the AvalancheTipBot account
+// Used to tweet
+global.TWITTER_CRED_1 = {
+  consumer_key: '',
+  consumer_secret: '',
+  access_token: '',
+  access_token_key: '',
+  access_token_secret: ''
+}
+global.HASH_SEARCHABLE = "#AVAXTips"
+
+global.TWITTER_HANDLE_TO_FOLLOW = "avalancheavax"
+
+// Other twitter account
+// Used to scrap datas
+global.TWITTER_CRED_2 = {
+  consumer_key: '',
+  consumer_secret: '',
+  access_token: '',
+  access_token_key: '',
+  access_token_secret: ''
+}

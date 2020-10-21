@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+.DS_Store
+/*.env
+jsondb/*.json
+*.csv
+/captcha/*
+
+global_config.js
+
+
+build.sh
+connect.sh
+pm2_new.sh
+pm2_stop.sh
+Procfile
